@@ -7,18 +7,32 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		CD8424242A3B0872005C85AE /* DetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD8424232A3B0872005C85AE /* DetailView.swift */; };
+		CD8424262A3B4BF3005C85AE /* EditEntryView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD8424252A3B4BF3005C85AE /* EditEntryView.swift */; };
+		CDAA04A42A3A75470025E0EE /* RatingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDAA04A32A3A75470025E0EE /* RatingView.swift */; };
+		CDAA04A62A3A81650025E0EE /* SingleRatingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDAA04A52A3A81650025E0EE /* SingleRatingView.swift */; };
 		CDB843FC2A3A63C400E8B220 /* weather_journalApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDB843FB2A3A63C400E8B220 /* weather_journalApp.swift */; };
 		CDB843FE2A3A63C400E8B220 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDB843FD2A3A63C400E8B220 /* ContentView.swift */; };
 		CDB844002A3A63C600E8B220 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CDB843FF2A3A63C600E8B220 /* Assets.xcassets */; };
 		CDB844032A3A63C600E8B220 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CDB844022A3A63C600E8B220 /* Preview Assets.xcassets */; };
+		CDB8440D2A3A65C700E8B220 /* DataController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDB8440C2A3A65C700E8B220 /* DataController.swift */; };
+		CDB844102A3A66AB00E8B220 /* WeatherJournal.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = CDB8440E2A3A66AB00E8B220 /* WeatherJournal.xcdatamodeld */; };
+		CDB844142A3A6B9400E8B220 /* AddEntryView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDB844132A3A6B9400E8B220 /* AddEntryView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		CD8424232A3B0872005C85AE /* DetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailView.swift; sourceTree = "<group>"; };
+		CD8424252A3B4BF3005C85AE /* EditEntryView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EditEntryView.swift; sourceTree = "<group>"; };
+		CDAA04A32A3A75470025E0EE /* RatingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RatingView.swift; sourceTree = "<group>"; };
+		CDAA04A52A3A81650025E0EE /* SingleRatingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SingleRatingView.swift; sourceTree = "<group>"; };
 		CDB843F82A3A63C400E8B220 /* weather-journal.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "weather-journal.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		CDB843FB2A3A63C400E8B220 /* weather_journalApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = weather_journalApp.swift; sourceTree = "<group>"; };
 		CDB843FD2A3A63C400E8B220 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		CDB843FF2A3A63C600E8B220 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		CDB844022A3A63C600E8B220 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		CDB8440C2A3A65C700E8B220 /* DataController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataController.swift; sourceTree = "<group>"; };
+		CDB8440F2A3A66AB00E8B220 /* WeatherJournal.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = WeatherJournal.xcdatamodel; sourceTree = "<group>"; };
+		CDB844132A3A6B9400E8B220 /* AddEntryView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddEntryView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -53,6 +67,13 @@
 			children = (
 				CDB843FB2A3A63C400E8B220 /* weather_journalApp.swift */,
 				CDB843FD2A3A63C400E8B220 /* ContentView.swift */,
+				CD8424252A3B4BF3005C85AE /* EditEntryView.swift */,
+				CDAA04A52A3A81650025E0EE /* SingleRatingView.swift */,
+				CDAA04A32A3A75470025E0EE /* RatingView.swift */,
+				CD8424232A3B0872005C85AE /* DetailView.swift */,
+				CDB8440C2A3A65C700E8B220 /* DataController.swift */,
+				CDB8440E2A3A66AB00E8B220 /* WeatherJournal.xcdatamodeld */,
+				CDB844132A3A6B9400E8B220 /* AddEntryView.swift */,
 				CDB843FF2A3A63C600E8B220 /* Assets.xcassets */,
 				CDB844012A3A63C600E8B220 /* Preview Content */,
 			);
@@ -137,8 +158,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CDB8440D2A3A65C700E8B220 /* DataController.swift in Sources */,
+				CD8424242A3B0872005C85AE /* DetailView.swift in Sources */,
+				CDB844142A3A6B9400E8B220 /* AddEntryView.swift in Sources */,
 				CDB843FE2A3A63C400E8B220 /* ContentView.swift in Sources */,
+				CDAA04A42A3A75470025E0EE /* RatingView.swift in Sources */,
+				CDAA04A62A3A81650025E0EE /* SingleRatingView.swift in Sources */,
+				CDB844102A3A66AB00E8B220 /* WeatherJournal.xcdatamodeld in Sources */,
 				CDB843FC2A3A63C400E8B220 /* weather_journalApp.swift in Sources */,
+				CD8424262A3B4BF3005C85AE /* EditEntryView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -337,6 +365,20 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		CDB8440E2A3A66AB00E8B220 /* WeatherJournal.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				CDB8440F2A3A66AB00E8B220 /* WeatherJournal.xcdatamodel */,
+			);
+			currentVersion = CDB8440F2A3A66AB00E8B220 /* WeatherJournal.xcdatamodel */;
+			name = WeatherJournal.xcdatamodeld;
+			path = ../WeatherJournal.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
 	};
 	rootObject = CDB843F02A3A63C400E8B220 /* Project object */;
 }
