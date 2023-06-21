@@ -1,8 +1,10 @@
 import SwiftUI
+import CoreData
 
 struct ContentView: View {
     @Environment(\.managedObjectContext) var moc
     @FetchRequest(sortDescriptors: [NSSortDescriptor(keyPath: \JournalEntry.date, ascending: true)]) var entries: FetchedResults<JournalEntry>
+    
 
     @State private var showingAddScreen = false
     @State private var showingEditScreen = false

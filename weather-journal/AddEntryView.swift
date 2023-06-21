@@ -69,6 +69,11 @@ struct AddEntryView: View {
         newEntry.weather = Int16(weather)
         newEntry.temperature = Int16(temperature)
         newEntry.date = Date()
+        //newEntry.weatherType = WeatherType()
+        //let weatherEntry = JournalEntry(entity: WeatherType)
+//        let newWeatherType = WeatherType(contex: moc)
+//        newWeatherType.id = Int16(id)
+//        newWeatherType.name = name
 
         do {
             try moc.save()

@@ -15,6 +15,8 @@ struct DetailView: View {
     @Environment(\.dismiss) var dismiss
     @State private var showingDeleteAlert = false
     
+    @State var showingPopup = false // 1
+    
     var body: some View {
         ScrollView {
             ZStackLayout(alignment: .bottomTrailing) {
@@ -50,6 +52,9 @@ struct DetailView: View {
                 )
             SingleRatingView(weather: entry.weather)
                 .font(.largeTitle)
+                .onLongPressGesture(perform: {
+                    showingPopup = true
+                })
                         
             VStack {
                 Text("Registered on")
@@ -61,6 +66,11 @@ struct DetailView: View {
         }
         .navigationTitle(entry.city ?? "Unknown entry")
         .navigationBarTitleDisplayMode(.inline)
+        .alert("", isPresented: $showingPopup) {
+            Button("OK", role: .cancel) {}
+        } message: {
+            Text("\(getWeatherType(weather: entry.weather))")
+        }
         .alert("Delete entry?", isPresented: $showingDeleteAlert) {
             Button("Delete", role: .destructive, action: deleteEntry)
             Button("Cancel", role: .cancel) {  }
@@ -89,5 +99,20 @@ struct DetailView: View {
         try? moc.save()
         
         dismiss()
+    }
+    
+    func getWeatherType(weather: Int16) -> String {
+        switch(weather) {
+        case 1:
+            return "snowing"
+        case 2:
+            return "raining"
+        case 4:
+            return "cloudy"
+        case 5:
+            return "sunny"
+        default:
+            return "windy"
+        }
     }
 }

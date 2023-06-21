@@ -71,9 +71,9 @@
 				CDAA04A52A3A81650025E0EE /* SingleRatingView.swift */,
 				CDAA04A32A3A75470025E0EE /* RatingView.swift */,
 				CD8424232A3B0872005C85AE /* DetailView.swift */,
+				CDB844132A3A6B9400E8B220 /* AddEntryView.swift */,
 				CDB8440C2A3A65C700E8B220 /* DataController.swift */,
 				CDB8440E2A3A66AB00E8B220 /* WeatherJournal.xcdatamodeld */,
-				CDB844132A3A6B9400E8B220 /* AddEntryView.swift */,
 				CDB843FF2A3A63C600E8B220 /* Assets.xcassets */,
 				CDB844012A3A63C600E8B220 /* Preview Content */,
 			);
