@@ -33,4 +33,13 @@ Xcode 12 or later
 Swift 5.3 or later
 iOS 14 or later
 
+## Photos
+
+<img width="513" alt="Screenshot 2023-07-20 at 16 41 50" src="https://github.com/popiolekdawid/weather-journal/assets/112573508/568dba81-315a-4022-a814-2a905dd9ed1f">
+
+<img width="513" alt="Screenshot 2023-07-20 at 16 42 45" src="https://github.com/popiolekdawid/weather-journal/assets/112573508/8c09006f-b8d3-4c1f-ac7a-238ef32eb126">
+
+<img width="513" alt="Screenshot 2023-07-20 at 16 43 14" src="https://github.com/popiolekdawid/weather-journal/assets/112573508/bad35dae-7910-4344-acd4-bae87e996eca">
+
+<img width="513" alt="Screenshot 2023-07-20 at 16 44 38" src="https://github.com/popiolekdawid/weather-journal/assets/112573508/bbbad9e7-876b-4e87-ae5f-62cf71463eb3">
 
