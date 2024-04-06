@@ -1,6 +1,6 @@
-# StormLog - Take notes about what's happening around you
+# StormLog
 
-The StormLog app is a journaling app that allows users to record their daily weather observations and experiences. Users can add, edit, and delete entries, including details such as city, temperature, and weather rating. The app provides a clean and intuitive user interface for managing and reviewing weather entries.
+This is a journaling app that allows users to record their daily weather observations and experiences. Users can add, edit, and delete entries, including details such as city, temperature, and weather rating. The app provides a clean and intuitive user interface for managing and reviewing weather entries.
 
 ## Features
 
