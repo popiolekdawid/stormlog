@@ -1,6 +1,6 @@
-# Weather Journal App
+# StormLog Weather Journal App - Take notes about what's happening around you
 
-The Weather Journal app is a simple journaling app that allows users to record their daily weather observations and experiences. Users can add, edit, and delete entries, including details such as city, temperature, and weather rating. The app provides a clean and intuitive user interface for managing and reviewing weather entries.
+The StormLog app is a simple journaling app that allows users to record their daily weather observations and experiences. Users can add, edit, and delete entries, including details such as city, temperature, and weather rating. The app provides a clean and intuitive user interface for managing and reviewing weather entries.
 
 ## Features
 
@@ -20,7 +20,7 @@ Xcode: Xcode is the integrated development environment (IDE) used for building, 
 
 ## Getting Started
 
-To run the Weather Journal app on your local machine, follow these steps:
+To run the app on your local machine, follow these steps:
 
 Ensure you have Xcode installed on your Mac.
 Clone this repository or download the source code files.
